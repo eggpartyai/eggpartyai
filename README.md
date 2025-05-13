@@ -1,7 +1,7 @@
-# Quivr - Your Second Brain, Empowered by Generative AI
+# Smart Contract Automation with AI for Egg Party’s Contract2Action
 
 <div align="center">
-    <img src="./logo.png" alt="Quivr-logo" width="31%"  style="border-radius: 50%; padding-bottom: 20px"/>
+    <img src="https://pictr.com/images/2025/05/13/xMe3TQ.png" alt="Egg Party AI" width="31%"  style="border-radius: 50%; padding-bottom: 20px"/>
 </div>
 
 [![Discord Follow](https://dcbadge.vercel.app/api/server/HUpRgp2HG8?style=flat)](https://discord.gg/HUpRgp2HG8)
