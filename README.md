@@ -19,18 +19,22 @@ The technical implementation of AI-driven smart contract automation in **Egg Par
 **Data Inputs and Oracles:**
  - Smart contracts cannot directly access off-chain data, so **Egg Party’s** system likely relies on oracles to provide external information like price feeds, weather data, or API outputs. AI enhances this by processing and contextualizing these inputs.
  - On-chain data, such as transaction histories, wallet balances, or governance votes, is directly accessible and can be analyzed by **Egg Party’s** AI models to identify patterns or anomalies.
+
 **AI Agents or Models:**
  - **Egg Party’s** AI agents, which could be machine learning models, neural networks, or reinforcement learning systems, are deployed either on-chain (if computationally feasible) or off-chain with results feedback via oracles. For example, a model trained on market data might run on a decentralized compute network like Phala Network or Golem to ensure privacy and decentralization. 
  - These agents process inputs to generate predictions, recommendations, or optimizations. For instance, a reinforcement learning model could optimize a DeFi yield farming strategy within **Egg Party’s** platform by simulating multiple scenarios and selecting the one with the highest expected return.
+
 **Smart Contract Integration:**
  - The AI’s outputs are translated into smart contract actions within **Egg Party’s Contract2Action**. This could involve: 
  - **Triggering execution**: Initiating a predefined action, like releasing funds or minting tokens, when AI confirms certain conditions.
  - **Modifying parameters**: Updating contract variables, such as interest rates or voting thresholds, based on AI recommendations.
  - **Proposing actions**: Submitting proposals to a DAO’s governance contract, which the Egg Party community then votes on, potentially through a gamified voting interface.
  - To ensure trustlessness, Egg Party’s AI logic may be audited, and its outputs verified through decentralized mechanisms, such as zero-knowledge proofs or multi-party computation.
+
 **Execution and Feedback Loop:**
  - Once the smart contract executes the action (e.g., transferring funds, updating a parameter), the outcome is recorded on the blockchain, maintaining transparency and immutability.
  - A feedback loop may allow Egg Party’s AI to learn from the results, refining its models over time. For example, if **Egg Party’s** AI misjudges market volatility in a DeFi protocol, it could adjust its weighting of certain data points in future predictions, improving accuracy.
+
 **Decentralized Infrastructure:**
  - To align with Web3 principles, **Egg Party’s** AI and compute infrastructure should ideally be decentralized. Projects like Fetch.ai or SingularityNET provide frameworks for running AI agents on blockchain networks, while IPFS or Arweave could store training data or model weights for Egg Party’s system.
  - Privacy-preserving techniques, such as federated learning or homomorphic encryption, might be used to protect sensitive data while enabling AI processing, ensuring **Egg Party** upholds user privacy
