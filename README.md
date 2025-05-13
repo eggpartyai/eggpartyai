@@ -57,12 +57,6 @@ Beyond DeFi and insurance, **Egg Party’s Contract2Action** could have broad ap
  - In **Egg Party’s Contract2Action, Smart Contract Automation with AI helps build a platform where AI** empowers smart contracts to adapt dynamically to real-time data, execute intelligent actions, and optimize outcomes across Web3 applications. By integrating AI agents, oracles, and decentralized infrastructure, **Egg Party** could transform DeFi, insurance, supply chains, gaming, and DAOs, making them more efficient, scalable, and user-friendly. 
 
 
-
-## Go further
-
-You can go further with EggParty AI by adding internet search, adding tools, etc. Check the [documentation](https://core.quivr.com/) for more information.
-
-
 ## Contributors ✨
 
 Thanks go to these wonderful people:
