@@ -8,181 +8,56 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/quivrhq/quivr?style=social)](https://github.com/quivrhq/quivr)
 [![Twitter Follow](https://img.shields.io/twitter/follow/StanGirard?style=social)](https://twitter.com/_StanGirard)
 
-Quivr, helps you build your second brain, utilizes the power of GenerativeAI to be your personal assistant !
+Egg Party’s Contract2Action develops an AI-powered platform for Smart Contract Automation, surpassing static rule-based execution.
 
-## Key Features 🎯
+## Introduction 🎯
 
-- **Opiniated RAG**: We created a RAG that is opinionated, fast and efficient so you can focus on your product
-- **LLMs**: Quivr works with any LLM, you can use it with OpenAI, Anthropic, Mistral, Gemma, etc.
-- **Any File**: Quivr works with any file, you can use it with PDF, TXT, Markdown, etc and even add your own parsers.
-- **Customize your RAG**: Quivr allows you to customize your RAG, add internet search, add tools, etc.
-- **Integrations with Megaparse**: Quivr works with [Megaparse](https://github.com/quivrhq/megaparse), so you can ingest your files with Megaparse and use the RAG with Quivr.
+Egg Party’s Contract2Action is developing a platform for Smart Contract Automation with AI to create a system that transcends static, rule-based execution. Smart contracts, which are self-executing programs stored on a blockchain, traditionally operate on predefined logic (e.g., “if condition X is met, execute action Y”). However, this approach can be rigid, as it lacks the ability to adapt to unforeseen circumstances or leverage complex, real-time data. By incorporating AI, Egg Party’s Contract2Action aims to introduce dynamic adaptability, enabling smart contracts to intelligently process external inputs, make data-driven decisions, and execute context-aware actions in real time. 
+The AI component enhances the smart contract’s capabilities by acting as a decision-making layer that interprets and responds to a broader range of inputs than traditional oracles (data feeds like Chainlink) can provide. For instance, AI could predict future conditions based on historical and real-time data, optimize contract parameters for efficiency, or personalize outcomes based on user profiles—all while maintaining the trustlessness and transparency of blockchain technology. This aligns with the broader Web3 vision of decentralized, autonomous systems that operate efficiently without centralized intermediaries, positioning Egg Party’s Contract2Action as a potential bridge between static blockchain logic and intelligent, adaptive automation. 
 
->We take care of the RAG so you can focus on your product. Simply install quivr-core and add it to your project. You can now ingest your files and ask questions.*
+**How It Works**
+The technical implementation of AI-driven smart contract automation in Egg Party’s Contract2Action system involves several components working in tandem:
 
-**We will be improving the RAG and adding more features, stay tuned!**
+**Data Inputs and Oracles:**
+-Smart contracts cannot directly access off-chain data, so Egg Party’s system likely relies on oracles to provide external information like price feeds, weather data, or API outputs. AI enhances this by processing and contextualizing these inputs.
+On-chain data, such as transaction histories, wallet balances, or governance votes, is directly accessible and can be analyzed by Egg Party’s AI models to identify patterns or anomalies.
+**AI Agents or Models:**
+-Egg Party’s AI agents, which could be machine learning models, neural networks, or reinforcement learning systems, are deployed either on-chain (if computationally feasible) or off-chain with results feedback via oracles. For example, a model trained on market data might run on a decentralized compute network like Phala Network or Golem to ensure privacy and decentralization.
+-These agents process inputs to generate predictions, recommendations, or optimizations. For instance, a reinforcement learning model could optimize a DeFi yield farming strategy within Egg Party’s platform by simulating multiple scenarios and selecting the one with the highest expected return.
+**Smart Contract Integration:**
+-The AI’s outputs are translated into smart contract actions within Egg Party’s Contract2Action. This could involve:
+-Triggering execution: Initiating a predefined action, like releasing funds or minting tokens, when AI confirms certain conditions.
+-Modifying parameters: Updating contract variables, such as interest rates or voting thresholds, based on AI recommendations.
+-Proposing actions: Submitting proposals to a DAO’s governance contract, which the Egg Party community then votes on, potentially through a gamified voting interface.
+-To ensure trustlessness, Egg Party’s AI logic may be audited, and its outputs verified through decentralized mechanisms, such as zero-knowledge proofs or multi-party computation.
+**Execution and Feedback Loop:**
+-Once the smart contract executes the action (e.g., transferring funds, updating a parameter), the outcome is recorded on the blockchain, maintaining transparency and immutability.
+-A feedback loop may allow Egg Party’s AI to learn from the results, refining its models over time. For example, if Egg Party’s AI misjudges market volatility in a DeFi protocol, it could adjust its weighting of certain data points in future predictions, improving accuracy.
+**Decentralized Infrastructure:**
+-To align with Web3 principles, Egg Party’s AI and compute infrastructure should ideally be decentralized. Projects like Fetch.ai or SingularityNET provide frameworks for running AI agents on blockchain networks, while IPFS or Arweave could store training data or model weights for Egg Party’s system.
+-Privacy-preserving techniques, such as federated learning or homomorphic encryption, might be used to protect sensitive data while enabling AI processing, ensuring Egg Party upholds user privacy
 
+## Applications
 
-This is the core of Quivr, the brain of Quivr.com.
-
-<!-- ## Demo Highlight 🎥
-
-https://github.com/quivrhq/quivr/assets/19614572/a6463b73-76c7-4bc0-978d-70562dca71f5 -->
-
-## Getting Started 🚀
-
-You can find everything on the [documentation](https://core.quivr.com/).
-
-### Prerequisites 📋
-
-Ensure you have the following installed:
-
-- Python 3.10 or newer
-
-### 30 seconds Installation 💽
-
-
-- **Step 1**: Install the package
-
-  
-
-  ```bash
-  pip install quivr-core # Check that the installation worked
-  ```
+Beyond DeFi and insurance, **Egg Party’s Contract2Action** could have broad applications, potentially infused with its playful, community-driven ethos:
+-Supply Chain Management: Egg Party’s AI could monitor IoT sensor data to verify delivery conditions (e.g., temperature for perishable goods) and trigger smart contract payments or penalties, with gamified rewards for suppliers who meet targets.
+-Gaming and NFTs: Egg Party could adjust in-game economies or NFT attributes based on player activity, with smart contracts enforcing changes. The “party” theme suggests a focus on social or multiplayer gaming, where AI-driven events enhance engagement.
+-Energy Markets: In decentralized energy grids, Egg Party’s AI could predict demand and optimize energy trades, with smart contracts settling transactions, potentially rewarding users with “party points” for sustainable practices.
 
 
-- **Step 2**: Create a RAG with 5 lines of code
+## Why It’s Significant
 
-  ```python
-  import tempfile
+**Egg Party’s Contract2Action** represents a leap forward for Web3 by combining the trustlessness and immutability of smart contracts with the adaptability and intelligence of AI. It enables:
 
-  from quivr_core import Brain
+-**Enhanced Efficiency**: Automating complex decisions reduces manual oversight, lowering costs and delays.
+-**Scalability: Egg Party’s** AI can process vast datasets, enabling smart contracts to handle sophisticated use cases without overwhelming blockchain networks.
+-**User Trust**: By leveraging blockchain’s transparency and AI’s predictive power, Egg Party can deliver fairer, more reliable outcomes.
+-**Innovation**: Dynamic smart contracts open new possibilities for DeFi, DAOs, and gaming, driving adoption and creativity, with **Egg Party’s** playful branding making Web3 more approachable.
 
-  if __name__ == "__main__":
-      with tempfile.NamedTemporaryFile(mode="w", suffix=".txt") as temp_file:
-          temp_file.write("Gold is a liquid of blue-like colour.")
-          temp_file.flush()
+## Conclusion
 
-          brain = Brain.from_files(
-              name="test_brain",
-              file_paths=[temp_file.name],
-          )
+-In **Egg Party’s Contract2Action, Smart Contract Automation with AI helps build a platform where AI** empowers smart contracts to adapt dynamically to real-time data, execute intelligent actions, and optimize outcomes across Web3 applications. By integrating AI agents, oracles, and decentralized infrastructure, **Egg Party** could transform DeFi, insurance, supply chains, gaming, and DAOs, making them more efficient, scalable, and user-friendly. 
 
-          answer = brain.ask(
-              "what is gold? asnwer in french"
-          )
-          print("answer:", answer)
-  ```
-## Configuration
-
-### Workflows
-
-#### Basic RAG
-
-![](docs/docs/workflows/examples/basic_rag.excalidraw.png)
-
-
-Creating a basic RAG workflow like the one above is simple, here are the steps:
-
-
-1. Add your API Keys to your environment variables
-```python
-import os
-os.environ["OPENAI_API_KEY"] = "myopenai_apikey"
-
-```
-Quivr supports APIs from Anthropic, OpenAI, and Mistral. It also supports local models using Ollama.
-
-1. Create the YAML file ``basic_rag_workflow.yaml`` and copy the following content in it
-```yaml
-workflow_config:
-  name: "standard RAG"
-  nodes:
-    - name: "START"
-      edges: ["filter_history"]
-
-    - name: "filter_history"
-      edges: ["rewrite"]
-
-    - name: "rewrite"
-      edges: ["retrieve"]
-
-    - name: "retrieve"
-      edges: ["generate_rag"]
-
-    - name: "generate_rag" # the name of the last node, from which we want to stream the answer to the user
-      edges: ["END"]
-
-# Maximum number of previous conversation iterations
-# to include in the context of the answer
-max_history: 10
-
-# Reranker configuration
-reranker_config:
-  # The reranker supplier to use
-  supplier: "cohere"
-
-  # The model to use for the reranker for the given supplier
-  model: "rerank-multilingual-v3.0"
-
-  # Number of chunks returned by the reranker
-  top_n: 5
-
-# Configuration for the LLM
-llm_config:
-
-  # maximum number of tokens passed to the LLM to generate the answer
-  max_input_tokens: 4000
-
-  # temperature for the LLM
-  temperature: 0.7
-```
-
-3. Create a Brain with the default configuration
-```python
-from quivr_core import Brain
-
-brain = Brain.from_files(name = "my smart brain",
-                        file_paths = ["./my_first_doc.pdf", "./my_second_doc.txt"],
-                        )
-
-```
-
-4. Launch a Chat
-```python
-brain.print_info()
-
-from rich.console import Console
-from rich.panel import Panel
-from rich.prompt import Prompt
-from quivr_core.config import RetrievalConfig
-
-config_file_name = "./basic_rag_workflow.yaml"
-
-retrieval_config = RetrievalConfig.from_yaml(config_file_name)
-
-console = Console()
-console.print(Panel.fit("Ask your brain !", style="bold magenta"))
-
-while True:
-    # Get user input
-    question = Prompt.ask("[bold cyan]Question[/bold cyan]")
-
-    # Check if user wants to exit
-    if question.lower() == "exit":
-        console.print(Panel("Goodbye!", style="bold yellow"))
-        break
-
-    answer = brain.ask(question, retrieval_config=retrieval_config)
-    # Print the answer with typing effect
-    console.print(f"[bold green]Quivr Assistant[/bold green]: {answer.answer}")
-
-    console.print("-" * console.width)
-
-brain.print_info()
-```
-
-5. You are now all set up to talk with your brain and test different retrieval strategies by simply changing the configuration file!
 
 ## Go further
 
