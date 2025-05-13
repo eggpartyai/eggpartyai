@@ -49,8 +49,8 @@ Beyond DeFi and insurance, **Egg Party’s Contract2Action** could have broad ap
 
 **Egg Party’s Contract2Action** represents a leap forward for Web3 by combining the trustlessness and immutability of smart contracts with the adaptability and intelligence of AI. It enables:
 
-•**Enhanced Efficiency**: Automating complex decisions reduces manual oversight, lowering costs and delays.
-•**Scalability: Egg Party’s** AI can process vast datasets, enabling smart contracts to handle sophisticated use cases without overwhelming blockchain networks.
+ - **Enhanced Efficiency**: Automating complex decisions reduces manual oversight, lowering costs and delays.
+ - **Scalability: Egg Party’s** AI can process vast datasets, enabling smart contracts to handle sophisticated use cases without overwhelming blockchain networks.
 •**User Trust**: By leveraging blockchain’s transparency and AI’s predictive power, Egg Party can deliver fairer, more reliable outcomes.
 •**Innovation**: Dynamic smart contracts open new possibilities for DeFi, DAOs, and gaming, driving adoption and creativity, with **Egg Party’s** playful branding making Web3 more approachable.
 
