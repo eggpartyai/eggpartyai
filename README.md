@@ -4,7 +4,7 @@
     <img src="https://pictr.com/images/2025/05/13/xMesP1.png" alt="Egg Party AI" width="31%"  style="border-radius: 50%; padding-bottom: 20px"/>
 </div>
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/StanGirard?style=social)](https://twitter.com/_StanGirard)
+[![Twitter Follow](https://img.shields.io/twitter/follow/egg_party_ai?style=social)](https://twitter.com/egg_party_ai)
 
 # Egg Party’s Contract2Action develops an AI-powered platform for Smart Contract Automation, surpassing static rule-based execution.
 
@@ -60,7 +60,7 @@ Beyond DeFi and insurance, **Egg Party’s Contract2Action** could have broad ap
 
 ## Go further
 
-You can go further with Quivr by adding internet search, adding tools, etc. Check the [documentation](https://core.quivr.com/) for more information.
+You can go further with EggParty AI by adding internet search, adding tools, etc. Check the [documentation](https://core.quivr.com/) for more information.
 
 
 ## Contributors ✨
